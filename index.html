@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>mantras.com</title>
+    <title>My Mantra Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Welcome to mantras.com</h1>
-    <h1>Vakratunda Mahakaya Sooryakoti Samaprabaha Nirvignam Kurumedeva Sarva Karyeshu Sarvada</h1>
-    <h1>Om.</h1>
+    <h1>Hindu Mantras</h1>
 
+    <!-- Button for a mantra -->
+    <button onclick="showLyrics('gayatri')">Gayatri Mantra</button>
+    <button onclick="showLyrics('mahamrityunjaya')">Mahamrityunjaya Mantra</button>
+
+    <!-- Area where the lyrics will appear -->
+    <div id="lyrics" class="lyrics-box"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
