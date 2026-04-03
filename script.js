@@ -13,7 +13,7 @@ function showLyrics(mantra) {
         Om Tryambakam Yajamahe<br>
         Sugandhim Pushtivardhanam<br>
         Urvarukamiva Bandhanan<br>
-        Mrityor Mukshiya Maamritat
+        Mrityor Mukshiya Maamritart
         `;
     } else {
         lyricsDiv.innerHTML = "Mantra not found!";
